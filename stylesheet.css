@@ -8,3 +8,11 @@ body {
     width: 100vh;
     height: 100vh;
 }
+
+#ground {
+    color: black;
+    size: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 1vh;
+}

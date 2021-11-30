@@ -4,9 +4,9 @@ var followCursor = (function() {
     var pichu = document.createElement('div');
     pichu.style.position = 'absolute';
     pichu.style.margin = '0';
-    pichu.style.padding = '5px';
+    pichu.style.padding = '0px';
     pichu.style.height = '19vh'
-    pichu.style.width = '14vh'
+    pichu.style.width = '15vh'
     pichu.style.backgroundImage = 'url(pichugif.gif)';
 
     return {
@@ -17,7 +17,7 @@ var followCursor = (function() {
             var e = e || window.event;
             currentX = e.clientX;
             pichu.style.left = (e.clientX) + 'px';
-            pichu.style.top = '80vh';
+            pichu.style.top = '78vh';
         }
     };
 }());

@@ -16,3 +16,42 @@ body {
     position: absolute;
     bottom: 1vh;
 }
+
+#aboutme {
+    background-image: url('cloud.jpg');
+    background-repeat: no-repeat;
+    width: 20vh;
+    height: 10vh;
+    top: 5vh;
+    left: 10%;
+    position: absolute;
+    background-size: cover;
+    text-align: center;
+    line-height: 10vh;
+}
+
+#projects {
+    background-image: url('cloud.jpg');
+    background-repeat: no-repeat;
+    width: 20vh;
+    height: 10vh;;
+    top: 5vh;
+    left: 40%;
+    position: absolute;
+    background-size: cover;
+    text-align: center;
+    line-height: 10vh;
+}
+
+#resume {
+    background-image: url('cloud.jpg');
+    background-repeat: no-repeat;
+    width: 20vh;
+    height: 10vh;
+    top: 5vh;
+    left: 70%;
+    position: absolute;
+    background-size: cover;
+    text-align: center;
+    line-height: 10vh;
+}

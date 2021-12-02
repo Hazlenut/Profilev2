@@ -13,12 +13,14 @@ var thunderr = (function() {
             document.body.appendChild(ball);
             console.log("here")
         },
-        run: function() {
+        run: function() {           
             ball.style.transform = "scale(20)";
+            ball.style.animationDuration = "5s";
         }
     };
 
 }());
 function thunder() {
     thunderr.init();
+    thunderr.run();
 }

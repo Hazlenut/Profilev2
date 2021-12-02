@@ -1,3 +1,7 @@
+function getCurrentXCoordinates(e) {
+    var e = e || window.event;
+    return e.clientX;
+}
 var currentX = 0;
 var currentY = 0;
 var followCursor = (function() {

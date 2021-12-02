@@ -1,24 +1,30 @@
 body {
-    background-color: white;
+    background-color: rgba(0,162,232, 1);
     margin: 0;
     padding: 0;
 }
 
-#container {
-    width: 100vh;
-    height: 100vh;
+#sky {
+    background-color: rgba(0,162,232,1);
+    width: 200vh;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+}
+#ground {
+    background-color: lightgreen;
+    width: 200vh;
+    padding-bottom:20vh;
 }
 
-#ground {
-    color: black;
-    size: 1px;
-    width: 100%;
-    position: absolute;
-    bottom: 1vh;
+#navbutton {
+    padding: 0;
+    border: none;
+    background: none;
 }
 
 #aboutme {
-    background-image: url('cloud.jpg');
+    background-image: url('cloud.png');
     background-repeat: no-repeat;
     width: 20vh;
     height: 10vh;
@@ -31,7 +37,7 @@ body {
 }
 
 #projects {
-    background-image: url('cloud.jpg');
+    background-image: url('cloud.png');
     background-repeat: no-repeat;
     width: 20vh;
     height: 10vh;;
@@ -44,7 +50,7 @@ body {
 }
 
 #resume {
-    background-image: url('cloud.jpg');
+    background-image: url('cloud.png');
     background-repeat: no-repeat;
     width: 20vh;
     height: 10vh;

@@ -11,7 +11,9 @@ var followCursor = (function() {
     pichu.style.padding = '0px';
     pichu.style.height = '19vh'
     pichu.style.width = '15vh'
-    pichu.style.backgroundImage = 'url(pichugif.gif)';
+    pichu.style.backgroundImage = 'url(pichu/idlepichu.png)';
+    pichu.style.backgroundSize = "100%"
+    pichu.style.backgroundRepeat = "no-repeat";
 
     return {
         init: function() {
@@ -21,7 +23,7 @@ var followCursor = (function() {
             var e = e || window.event;
             currentX = e.clientX;
             pichu.style.left = (e.clientX) + 'px';
-            pichu.style.top = '78vh';
+            pichu.style.top = '72vh';
         }
     };
 }());

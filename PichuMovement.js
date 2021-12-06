@@ -9,9 +9,9 @@ var followCursor = (function() {
     pichu.style.position = 'absolute';
     pichu.style.margin = '0';
     pichu.style.padding = '0px';
-    pichu.style.height = '19vh'
-    pichu.style.width = '15vh'
-    pichu.style.backgroundImage = 'url(pichu/idlepichu.png)';
+    pichu.style.height = '40vh'
+    pichu.style.width = '30vh'
+    pichu.style.backgroundImage = 'url(pichu/BlinkingIdlePichu.gif)';
     pichu.style.backgroundSize = "100%"
     pichu.style.backgroundRepeat = "no-repeat";
 
